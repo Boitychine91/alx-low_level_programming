@@ -1,19 +1,21 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- * main- prints alpha in lower cases
- *
- * Return:Always 0 (success)
+ * main- Entry point
+ * Return: Always 0 (success)
  */
-
 int main(void)
 {
-	char lc;
+	char low;
 
-	for (lc = 'a'; <= 'z', lc++);
-	{
-		putchar(lc);
-	}
+	for (low = 'a'; low <= 'z'; low++)
+	putchar(low);
+
+	for (low = 'A'; low <= 'Z'; low++)
+	putchar(low);
 	putchar('\n');
+
 	return (0);
 }
